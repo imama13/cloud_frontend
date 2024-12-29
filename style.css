@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Centering Headings */
+h1, h2 {
+    color: #343a40;
+    text-align: center;
+}
+
+/* Video Items Spacing */
+#video-list .video-item {
+    margin-bottom: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+    #video-list .video-item {
+        margin-bottom: 15px;
+    }
+    body {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    body {
+        font-size: 0.85rem;
+    }
+}
+
+/* Footer Styles */
+footer {
+    margin-top: auto; /* Push footer to bottom */
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+}
